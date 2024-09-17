@@ -15,11 +15,11 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
 }
-.wrapheader, .wraptable, .wrapfooter {
+.wrapheader, .wraptable {
     text-align: center;
     padding: 35px;
 }
-.wrapimage, .wraptb{
+.wrapimage, .wraptb, .wraplow {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -49,4 +49,17 @@ body {
     width: auto;
     flex-grow: 1;
     border-collapse: collapse;
+}
+.ltb {
+    font-size: 13px;
+    border: 2px solid black;
+    line-height: 1;
+    width: 46%;
+    border-collapse: collapse;
+}
+.rtb {
+    line-height: 1.7;
+    width: 43%;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
 }
