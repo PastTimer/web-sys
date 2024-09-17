@@ -46,14 +46,7 @@ body {
     font-weight: 600;
 }
 .inner {
-    font-size: 18px;
-    background-color: rgb(191, 188, 236);
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    margin: 0;
-    text-align: center;
     width: auto;
     flex-grow: 1;
-    line-height: 2;
-    font-weight: 600;
+    border-collapse: collapse;
 }
